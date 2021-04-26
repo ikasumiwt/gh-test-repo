@@ -6,8 +6,10 @@ rules:                      # Array of rules
     mergeUnstable: false    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
     assignees:              # Optional
       - ikasumiwt
+      - ikasumitest
     reviewers:              # Optional
       - ikasumiwt
+      - ikasumitest
     conflictReviewers:      # Optional, on merge conflict assign a reviewer
       - ikasumiwt
   - base: dev            # Required. Target branch
