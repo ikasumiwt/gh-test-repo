@@ -5,9 +5,11 @@ rules:                      # Array of rules
     mergeMethod: merge  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
     mergeUnstable: false    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
     assignees:              # Optional
-      - ikasumiwt,ikasumitest
+      - ikasumiwt
+      - ikasumitest
     reviewers:              # Optional
-      - ikasumiwt,ikasumitest
+      - ikasumiwt
+      - ikasumitest
     conflictReviewers:      # Optional, on merge conflict assign a reviewer
       - ikasumiwt
   - base: dev            # Required. Target branch
@@ -15,9 +17,11 @@ rules:                      # Array of rules
     mergeMethod: merge  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
     mergeUnstable: false    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
     assignees:              # Optional
-      - ikasumiwt,ikasumitest
+      - ikasumiwt
+      - ikasumitest
     reviewers:              # Optional
-      - ikasumiwt,ikasumitest
+      - ikasumiwt
+      - ikasumitest
     conflictReviewers:      # Optional, on merge conflict assign a reviewer
       - ikasumiwt
 label: ":thinking_face: pull"  # Optional
